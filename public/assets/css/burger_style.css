@@ -1,5 +1,7 @@
 body{
-    background-color:rgb(192, 113, 9);
+    background-image: url(../img/classic-burgers-u.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container{
@@ -7,9 +9,16 @@ body{
     margin: 0 auto;
 }
 
+h3{
+    background-color: rgb(179, 196, 87);
+    border-radius: 10px;
+    text-shadow: 2px 2px 5px rgb(134, 122, 122);
+    padding:10px;
+}
+
 #bur{
     height:100px;
-    width:500px;
+    width:400px;
     border: 1px solid black;
     padding:20px;
     background-color: white;
@@ -33,4 +42,14 @@ button{
     width:100px;
     background-color: rgb(11, 179, 179);
     color:white;
+}
+
+p{
+    color:white;
+}
+
+@media screen and (max-width:670px){
+    #textarea1{
+     margin-left:0;
+}
 }
