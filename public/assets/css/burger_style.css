@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(192, 113, 9);
+}
+
+.container{
+    width:960px;
+    margin: 0 auto;
+}
+
+#bur{
+    height:100px;
+    width:500px;
+    border: 1px solid black;
+    padding:20px;
+    background-color: white;
+}
+
+#textarea1{
+    height: 50px;
+    width:200px;
+    border: 1px solid black;
+    margin-bottom:0;
+    background-color: white;
+}
+
+.waves-effect {
+    margin:20px;
+}
+
+button{
+    padding:10px;
+    border-radius: 3px;
+    width:100px;
+    background-color: rgb(11, 179, 179);
+    color:white;
+}
